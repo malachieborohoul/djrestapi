@@ -1,7 +1,7 @@
 import json 
 from django.http import JsonResponse
 
-# Js
+# J
 def api_home(request, *arg, **kwargs):
     body=request.body
     data={}
