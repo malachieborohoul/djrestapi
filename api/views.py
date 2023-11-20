@@ -8,4 +8,5 @@ def api_home(request, *arg, **kwargs):
         data=json.loads(body)
     except:
         pass
+    print(data.keys())
     return JsonResponse({"message":"Hi there"})
