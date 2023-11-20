@@ -9,4 +9,4 @@ def api_home(request, *arg, **kwargs):
     except:
         pass
     print(data.keys())
-    return JsonResponse({"message":"Hi there"})
+    return JsonResponse(data)
